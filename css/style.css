@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css?family=Sofia&effect=neon|outline|emboss|shadow-multiple");
+
+body {
+    margin: 0;
+    background-image: linear-gradient(to right, #707377, #201e20);
+}
+        
+#container{
+    margin: auto;
+    text-align: center;
+    align-items: center;
+}
+
+.cabecalho{
+    height: 80px;
+    background-color: #323232;
+    display: flex;
+    justify-content: space-around;
+}
+h1 {
+    margin: 2px 80px 30px 30px;
+    font-family: "Sofia", sans-serif;
+    color: rgb(209, 24, 209);
+    font-size: 50px;
+}
+a.sobre{
+    text-decoration: none;
+    color: rgb(209, 24, 209);
+    font-family: "Sofia", sans-serif;
+    border-style: solid;
+    border-width: medium;
+    border-radius: 20px;
+    border-color: rgb(209, 24, 209);
+}
+a.contato{
+    text-decoration: none;
+    color: rgb(209, 24, 209);
+    font-family: "Sofia", sans-serif;
+    border-style: solid;
+    border-width: medium;
+    border-radius: 20px;
+    border-color: rgb(209, 24, 209);
+}
+.img{
+    margin-top: 10px;
+    width: 140px;
+    height: 20%;
+    border-radius: 20%;
+}
+.texto{
+    margin: 25px 250px;
+    font-family: Copperplate, Papyrus, fantasy;
+}
+
+.box{
+    width: 1280px;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+}
+.boxum{
+    width: 20%;
+    height: 100%;
+    background-color: #5ebfcc;
+    border-radius: 20%;
+    text-decoration: none;
+    font-family: "Sofia", sans-serif;
+
+}
+.login {
+    width: 200px;
+    height: 200px;
+    margin-top: 5%;
+}
+h3 a{
+    text-decoration: none;
+
+}
+.boxdois{
+    width: 20%;
+    height: 100%;
+    background-color: #5ebfcc;
+    border-radius: 20%;
+    font-family: "Sofia", sans-serif;
+    color: rgb(90, 18, 133);
+}
+.boxtres{
+    width: 20%;
+    height: 100%;
+    background-color: #5ebfcc;
+    border-radius: 20%;
+    font-family: "Sofia", sans-serif;
+    color: rgb(90, 18, 133);
+}

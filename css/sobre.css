@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: Copperplate, Papyrus, fantasy;
+    background-color: #f1f1f1;
+    background-image: linear-gradient(to right, #8d4cb8, #5760da);
+}
+.texto{
+    margin: 30px 30px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+}
+.container .progress-container{
+    margin-bottom: 25px;
+}
+.container .progress-container h4{
+    margin: 0 0 15px 15px;
+    letter-spacing: .5px;
+}
+.container .progress-container .progress-bar{
+    position: relative;
+    width: 500px;
+    height: 30px;
+    border-radius: 30px;
+    background-color: white;
+    box-shadow: 3px 4px 5px 0px rgba(204 185 185/ .75);
+}
+.container .progress-container .progress-bar span{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    color: white;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.7;
+    text-align: center;
+    border-radius: 30px;
+    background-image: linear-gradient(to right, rgb(115, 49, 153) 50%, rgb(74, 10, 104) 100%);
+    transition: width .5s linear;
+}
+selection{
+    margin: 40px 0;
+}
+a{
+    text-align: center;
+    width: 100px;
+    height: 40px;
+    font-size: 15px;
+    padding: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(97, 36, 97);
+    border-radius: 20px;
+    cursor: pointer;
+}
